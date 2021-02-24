@@ -1,0 +1,45 @@
+*{
+ margin:0px;
+ padding:0px   
+}
+body{
+    background:url("board.png");
+    background-repeat:no-repeat;
+}
+div{
+    
+    Padding-top: 29px;
+    Padding-bottom: 19px;
+    margin-left:29px;
+    display:inline;
+    position:relative; 
+}
+img{
+    height:115px;
+    padding-top:34px;
+    padding-bottom:10px;
+}
+h1{
+    font-size:38px;
+    color:green;
+}
+h2{
+    display:none;
+    font-size:28px;
+    color:red;
+}
+h3,p{
+    border:2px solid red;
+    border-radius:5px;
+    display:inline;
+    padding:5px;
+    margin:7px;  
+}
+.crs{
+    opacity:0;                            
+    
+}
+.rnd{
+    position:absolute;
+    display:none;
+}
